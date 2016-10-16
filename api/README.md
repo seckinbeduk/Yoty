@@ -60,6 +60,7 @@ Patterns in this project:  [Coding Guidelines](https://github.com/Microsoft/Type
 
 
 router.get("**/users/:_id**", controller.findById);
+
 **Method:** Get
 
 **Url:** http://localhost:5000/users/5803f3bc70512e03c0845a9f
