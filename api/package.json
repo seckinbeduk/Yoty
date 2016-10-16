@@ -1,0 +1,23 @@
+{
+  "name": "yoty.api",
+  "version": "1.0.0",
+  "description": "Yoty.Api Node Service Api Endpoint",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taha İPEK",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-tsc": "^1.2.4",
+    "gulp-typescript-compiler": "^1.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.6.3"
+  }
+}
