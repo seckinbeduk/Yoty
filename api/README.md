@@ -6,7 +6,7 @@ Patterns in this project:  [Coding Guidelines](https://github.com/Microsoft/Type
  -  Multi-layer Architecture Pattern
 
 
-----------
+
 ## **Dependencies:** 
  - **NodeJS:** Node.js is an open-source, cross-platform JavaScript runtime environment for developing a diverse variety of tools and applications. 
  - **TypeScript:** TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
@@ -15,14 +15,15 @@ Patterns in this project:  [Coding Guidelines](https://github.com/Microsoft/Type
  - **Mongoose:** Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.
  - **GulpJS:** Gulp is a task/build runner for development.
 
-----------
+
 ## **Usage:** 
 
  > $ npm install 
 
  > $ gulp 
 
-----------
+
+
 ## **Api Definition:** 
 
 > router.get("**/users**", controller.retrieve);
