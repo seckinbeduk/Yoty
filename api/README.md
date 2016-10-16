@@ -1,7 +1,4 @@
-Welcome # Yoty
-
-
-# **YOTY.Api** 
+# Welcome **YOTY.Api** 
 
 Patterns in this project:  [Coding Guidelines](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
  -  Generic Repository Pattern
@@ -31,7 +28,9 @@ Patterns in this project:  [Coding Guidelines](https://github.com/Microsoft/Type
 > router.get("**/users**", controller.retrieve);
 
 **Method:** Get
+
 **Url:** http://localhost:5000/users
+
 **Return:**  [ 		{"_id":"5803f3bc70512e03c0845a9f", "UserName":"tipek", "Password":"123456", "Name":"Taha", "Surname":"İPEK", "Mail":"ti[at]gmail.com", "UpdatedBy":2,"CreatedBy":3,"__v":0,"Created":"2016-10-17T00:00:00.000Z", "Updated":"2016-10-17T00:44:32.000Z"},
 		{"_id":"5803ff30af4d1e1e647acb97", "UserName":"sbeduk", "Password":"123456", "Name":"Seçkin", "Surname":"BEDÜK", "Mail":"mail[at]gmail.com", "UpdatedBy":1,"CreatedBy":1,"__v":0,"Created":"2016-10-17T00:00:00.000Z", "Updated":"2016-10-17T00:00:00.000Z"} 	]
 
@@ -40,7 +39,9 @@ Patterns in this project:  [Coding Guidelines](https://github.com/Microsoft/Type
 > router.post("**/users"**, controller.create);
 
 **Method:** Post
+
 **Url:** http://localhost:5000/users
+
 **Parameters:** {"UserName": "sbeduk",  "Password": "123456",  "Name": "Seçkin",  "Surname": "BEDÜK",  "Mail": "mail[at]gmail.com",  "UpdatedBy": 1,  "CreatedBy": 1,  "Created": "2016-10-17T00:00:00.000Z",  "Updated": "2016-10-17T00:00:00.000Z"}
 
 
@@ -49,7 +50,9 @@ Patterns in this project:  [Coding Guidelines](https://github.com/Microsoft/Type
 > router.put("**/users/:_id**", controller.update);
 
 **Method:** Put
+
 **Url:** http://localhost:5000/users/5803f3bc70512e03c0845a9f
+
 **Parameters:** {"UserName":"tipek", "Password":"123456", "Name":"Taha", "Surname":"İPEK", "Mail":"ti[at]", "UpdatedBy":2,"CreatedBy":3,"__v":0,"Created":"2016-10-17T00:00:00.000Z", "Updated":"2016-10-17T00:44:32.000Z"}
 
 
@@ -58,7 +61,9 @@ Patterns in this project:  [Coding Guidelines](https://github.com/Microsoft/Type
 
 router.get("**/users/:_id**", controller.findById);
 **Method:** Get
+
 **Url:** http://localhost:5000/users/5803f3bc70512e03c0845a9f
+
 **Returns:** {"_id":"5803f3bc70512e03c0845a9f", "UserName":"tipek", "Password":"123456", "Name":"Taha", "Surname":"İPEK", "Mail":"ti[at]", "UpdatedBy":2,"CreatedBy":3,"__v":0,"Created":"2016-10-17T00:00:00.000Z", "Updated":"2016-10-17T00:44:32.000Z"}
 
 
