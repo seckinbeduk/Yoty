@@ -1,4 +1,4 @@
-# Welcome **YOTY.Api** 
+# Welcome **YOTY.Api** 🎉🎉🎉
 
 Patterns in this project:  [Coding Guidelines](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
  -  Generic Repository Pattern
@@ -7,7 +7,7 @@ Patterns in this project:  [Coding Guidelines](https://github.com/Microsoft/Type
 
 
 
-## **Dependencies:** 
+## **Dependencies:** 📦
  - **NodeJS:** Node.js is an open-source, cross-platform JavaScript runtime environment for developing a diverse variety of tools and applications. 
  - **TypeScript:** TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
  - **ExpressJS:** Fast, unopinionated, minimalist web framework for Node.js 
@@ -16,7 +16,7 @@ Patterns in this project:  [Coding Guidelines](https://github.com/Microsoft/Type
  - **GulpJS:** Gulp is a task/build runner for development.
 
 
-## **Usage:** 
+## **Usage:**  ✨
 
  > $ npm install 
 
@@ -24,7 +24,7 @@ Patterns in this project:  [Coding Guidelines](https://github.com/Microsoft/Type
 
 
 
-## **Api Definition:** 
+## **Api Definition:** 🚨
 
 > router.get("**/users**", controller.retrieve);
 
