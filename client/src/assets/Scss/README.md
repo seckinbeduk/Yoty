@@ -33,4 +33,4 @@ sass/ <br />
 |   ...                  # Etc…<br /> 
 |<br /> 
 |<br /> 
-`– yoty.scss             # primary Sass file<br /> 
+`– yoty.scss             # primary Sass file<br />  
