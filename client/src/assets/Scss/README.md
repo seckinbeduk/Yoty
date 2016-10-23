@@ -1,36 +1,36 @@
-sass/ 
-| 
-|– base/ 
-|   |– _typography.scss  # Typography rules 
-|   ...                  # Etc… 
-| 
-|– components/ 
-|   |– _buttons.scss     # Buttons 
-|   ...                  # Etc… 
-| 
-|– helpers/ 
-|   |– _variables.scss   # Sass Variables 
-|   |– _functions.scss   # Sass Functions 
-|   |– _mixins.scss      # Sass Mixins 
-|   |– _helpers.scss     # Class & placeholders helpers 
-|   ...                  # Etc… 
-| 
-|– layout/  
-|   |– _header.scss      # Header 
-|   |– _footer.scss      # Footer 
-|   ...                  # Etc… 
-| 
-|– pages/ 
-|   |– _home.scss        # Home specific styles 
-|   ...                  # Etc… 
-| 
-|– themes/ 
-|   |– _theme.scss       # Default theme & Root styles
-|   ...                  # Etc… 
-| 
-|– vendors/ 
-|   |– _bootstrap.scss   # Bootstrap 
-|   ...                  # Etc… 
-| 
-| 
-`– yoty.scss             # primary Sass file 
+sass/ <br />
+| <br />
+|– base/ <br />
+|   |– _typography.scss  # Typography rules <br />
+|   ...                  # Etc… <br />
+| <br />
+|– components/ <br />
+|   |– _buttons.scss     # Buttons <br />
+|   ...                  # Etc… <br />
+| <br />
+|– helpers/<br /> 
+|   |– _variables.scss   # Sass Variables<br /> 
+|   |– _functions.scss   # Sass Functions<br /> 
+|   |– _mixins.scss      # Sass Mixins<br /> 
+|   |– _helpers.scss     # Class & placeholders helpers<br /> 
+|   ...                  # Etc…<br /> 
+|<br /> 
+|– layout/<br />  
+|   |– _header.scss      # Header<br /> 
+|   |– _footer.scss      # Footer<br /> 
+|   ...                  # Etc…<br /> 
+|<br /> 
+|– pages/<br /> 
+|   |– _home.scss        # Home specific styles<br /> 
+|   ...                  # Etc…<br /> 
+|<br /> 
+|– themes/<br /> 
+|   |– _theme.scss       # Default theme & Root styles<br />
+|   ...                  # Etc…<br /> 
+|<br /> 
+|– vendors/<br /> 
+|   |– _bootstrap.scss   # Bootstrap<br /> 
+|   ...                  # Etc…<br /> 
+|<br /> 
+|<br /> 
+`– yoty.scss             # primary Sass file<br /> 
