@@ -8,8 +8,10 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { Routing } from './app.routes';
 
+// -> Home Components
 import { HomeComponent } from './Components/Home/home.component';
 
+// -> MembershipProvider Components
 import { LoginComponent } from './Components/MembershipProvider/Login/login.component';
 import { RegisterComponent } from './Components/MembershipProvider/Register/register.component';
 import { ResetComponent } from './Components/MembershipProvider/Reset/reset.component';
@@ -19,7 +21,7 @@ import { ResetComponent } from './Components/MembershipProvider/Reset/reset.comp
 @NgModule({
   declarations: [
     AppComponent,
-    
+
     HomeComponent,
 
     LoginComponent,

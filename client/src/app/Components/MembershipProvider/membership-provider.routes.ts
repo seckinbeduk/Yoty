@@ -6,7 +6,7 @@ import { RegisterComponent } from './Register/register.component';
 import { ResetComponent } from './Reset/reset.component';
 
 
-export const loginRoutes: Routes = [
+export const MembershipProviderRoutes: Routes = [
     {path: 'login', component: LoginComponent},
     {path: 'register', component: RegisterComponent},
     {path: 'reset', component: ResetComponent}

@@ -10,11 +10,11 @@ import { HomeComponent } from './Components/Home/home.component';
 
 
 // Component route configuration file
-import { loginRoutes } from './Components/MembershipProvider/membership-provider.routes';
+import { MembershipProviderRoutes } from './Components/MembershipProvider/membership-provider.routes';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent},
-    ...loginRoutes  // Add login routes form different file
+    ...MembershipProviderRoutes  // Add login routes form different file
 ];
 
 export const Routing: ModuleWithProviders = RouterModule.forRoot(routes);
