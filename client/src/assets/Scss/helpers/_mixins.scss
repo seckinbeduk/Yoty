@@ -1,0 +1,11 @@
+@mixin box-shadow($shadow...) {
+  @if $yoty-enable-shadows {
+    box-shadow: $shadow;
+  }
+}
+
+@mixin transition($transition...) {
+  @if $yoty-enable-transitions {
+    transition: $transition;
+  }
+}
