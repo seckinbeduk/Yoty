@@ -1,0 +1,12 @@
+#sidebar {
+  width: 280px;
+  top: 60px;
+  left: 0;
+  z-index: 1001;
+  display: block;
+  min-height: 100%;
+  background-color: $yoty-body-color;
+  height: 100%;
+  position: fixed;
+  padding: 10px;
+}

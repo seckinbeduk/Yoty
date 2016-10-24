@@ -1,0 +1,21 @@
+{
+  "name": "yoty.client",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Taha İPEK"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tahaipek/Yoty",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "v4.0.0-alpha.5"
+  }
+}

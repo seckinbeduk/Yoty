@@ -5,6 +5,8 @@
 @import 'helpers/helpers';
 
 // 2. Vendors
+@import '../../../bower_components/bootstrap/scss/bootstrap';
+@import '../../../bower_components/tether/src/css/tether';
 @import 'vendor/bootstrap';
 
 // 3. Base stuff
@@ -15,6 +17,8 @@
 
 // 5. Layout-related sections
 @import 'layout/header';
+@import 'layout/sidebar';
+@import 'layout/container';
 @import 'layout/footer';
 
 // 6. Components

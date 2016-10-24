@@ -11,6 +11,10 @@ import { Routing } from './app.routes';
 // -> Home Components
 import { HomeComponent } from './Components/Home/home.component';
 
+// -> Layout Components
+import { HeaderComponent } from './Components/_Layout/Header/header.component';
+import { SidebarComponent } from './Components/_Layout/Sidebar/sidebar.component';
+
 // -> MembershipProvider Components
 import { LoginComponent } from './Components/MembershipProvider/Login/login.component';
 import { RegisterComponent } from './Components/MembershipProvider/Register/register.component';
@@ -24,6 +28,11 @@ import { ResetComponent } from './Components/MembershipProvider/Reset/reset.comp
 
     HomeComponent,
 
+    // -> Layout Components
+    HeaderComponent,
+    SidebarComponent,
+
+    // -> MembershipProvider Components 
     LoginComponent,
     RegisterComponent,
     ResetComponent
