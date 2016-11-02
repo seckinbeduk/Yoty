@@ -9,52 +9,63 @@
   height: 100%;
   position: fixed;
   padding: 10px;
-
-  li.nav-item-collapsible{
-    > a { 
+  .nav-pills .nav-link {
+    padding: 0.5em;
+  }
+  li.nav-item-collapsible {
+    >a {
       position: relative;
       background-color: rgba(0, 0, 0, 0.2)
     }
-    > ul {
-      margin-left: 25px;
+    >ul {
+      margin-left: 15px;
     }
     .fa {
-        // font-size: 1.2rem;
-        margin-right: 10px;
+      font-size: 1rem;
+      text-align: center;
+      width: 20px
     }
-
+    .fa.fa-angle-down {
+      -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
+      @include yoty-transition(0.1s linear);
+    }
     .fa-angle-down.rotate-icon {
-        position: absolute;
-        right: 0;
-        top: 10px;
+      position: absolute;
+      right: 0;
+      top: 10px;
     }
-
-
+    a.collapse {
+      .fa.fa-angle-down {
+        -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+    }
     /* hide */
-    a.collapse + ul {
-        font-size: 0;
-        margin: 0;
-        opacity: 0;
-        padding: 0;
-        /* fade out, then shrink */
-        transition: opacity .10s,
-                    font-size .2s .10s,
-                    margin .2s .10s,
-                    padding .2s .10s;
+    a.collapse+ul {
+      font-size: 0;
+      margin: 0;
+      opacity: 0;
+      padding: 0;
+      height: 0;
+      /* fade out, then shrink */
+      transition: height .10s, opacity .10s, font-size .2s .10s, margin .2s .10s, padding .2s .10s;
     }
-
     /* reveal */
     ul {
-        /* unshrink, then fade in */
-        transition: font-size .10s,
-                    margin .10s,
-                    padding .10s,
-                    opacity .2s .10s;
+      /* unshrink, then fade in */
+      transition: height .10s, font-size .10s, margin .10s, padding .10s, opacity .2s .10s;
     }
-
+    .divider {
+      height: 1px;
+      width: 100%;
+      display: block;
+      overflow: hidden;
+      background-color: rgba(255, 255, 255, 0.1)
+    }
   }
 }
-
-
-
-

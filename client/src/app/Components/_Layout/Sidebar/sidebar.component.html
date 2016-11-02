@@ -1,32 +1,54 @@
 <aside id="sidebar">
   <ul class="nav nav-pills nav-stacked">
-    <li class="nav-item nav-item-collapsible" >
+    <li class="nav-item nav-item-collapsible">
+      <a class="nav-link collapse" href="#" [routerLink]="['/']">
+        <i class="fa fa-home"></i> Dashboard
+      </a>
+    </li>
+    <li class="nav-item nav-item-collapsible">
       <a class="nav-link collapse" href="#" (click)="toggleMenu($event)">
-        <i class="fa fa-home" aria-hidden="true"></i> Dashboard
+        <i class="fa fa-thumb-tack"></i> Tickets
         <i class="fa fa-angle-down rotate-icon"></i>
       </a>
       <ul class="nav nav-pills nav-stacked" [class.menuIsOpen]="collapse">
-        <li><a class="nav-link" [routerLink]="['/']">Home</a></li>
-        <li><a class="nav-link" [routerLink]="['/login']" class="nav-link">Login</a></li>
-        <li><a class="nav-link" [routerLink]="['/register']" class="nav-link">Register</a></li>
-        <li><a class="nav-link" [routerLink]="['/reset']" class="nav-link">Reset</a></li>
+        <li><a href="#" class="nav-link">Open and Pending Tickets</a></li>
+        <li><a href="#" class="nav-link">Overdue Tickets</a></li>
+        <li><a href="#" class="nav-link">Open Tickets in My Groups</a></li>
+        <li><a href="#" class="nav-link">Urgent and High priority Tickets</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#" class="nav-link">All Unresolved Tickets</a></li>
+        <li><a href="#" class="nav-link">All Tickets</a></li>
+        <li><a href="#" class="nav-link">Tickets I Requested</a></li>
+        <li><a href="#" class="nav-link">Tickets I'm Watching</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#" class="nav-link">Spam</a></li>
+        <li><a href="#" class="nav-link">Trash</a></li>
       </ul>
     </li>
     <li class="nav-item nav-item-collapsible">
       <a class="nav-link collapse" href="#" (click)="toggleMenu($event)">
-        <i class="fa fa-cutlery"></i> Home
+        <i class="fa fa-users"></i> Customers
         <i class="fa fa-angle-down rotate-icon"></i>
       </a>
       <ul class="nav nav-pills nav-stacked" [class.menuIsOpen]="collapse">
-        <li><a class="nav-link" [routerLink]="['/']">Home</a></li>
-        <li><a class="nav-link" [routerLink]="['/login']" class="nav-link">Login</a></li>
-        <li><a class="nav-link" [routerLink]="['/register']" class="nav-link">Register</a></li>
-        <li><a class="nav-link" [routerLink]="['/reset']" class="nav-link">Reset</a></li>
+        <li><a href="#" class="nav-link">Contacts</a></li>
+        <li><a href="#" class="nav-link">Companies</a></li>
       </ul>
     </li>
     <li class="nav-item nav-item-collapsible">
       <a class="nav-link collapse" href="#" (click)="toggleMenu($event)">
-        <i class="fa fa-cutlery"></i> Home
+        <i class="fa fa-cog"></i> App Settings
+        <i class="fa fa-angle-down rotate-icon"></i>
+      </a>
+      <ul class="nav nav-pills nav-stacked" [class.menuIsOpen]="collapse">
+        <li><a href="#" class="nav-link">Agents</a></li>
+        <li><a href="#" class="nav-link">Groups</a></li>
+        <li><a href="#" class="nav-link">Roles</a></li>
+      </ul>
+    </li>
+    <li class="nav-item nav-item-collapsible">
+      <a class="nav-link collapse" href="#" (click)="toggleMenu($event)">
+        <i class="fa fa-cutlery"></i> Test Menu
         <i class="fa fa-angle-down rotate-icon"></i>
       </a>
       <ul class="nav nav-pills nav-stacked" [class.menuIsOpen]="collapse">
@@ -36,9 +58,5 @@
         <li><a class="nav-link" [routerLink]="['/reset']" class="nav-link">Reset</a></li>
       </ul>
     </li>
-
-    
   </ul>
-
-
 </aside>
