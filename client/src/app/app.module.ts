@@ -9,16 +9,16 @@ import { AppComponent } from './app.component';
 import { Routing } from './app.routes';
 
 // -> Home Components
-import { HomeComponent } from './Components/Home/home.component';
+import { HomeComponent } from './Pages/Home/home.component';
 
 // -> Layout Components
 import { HeaderComponent } from './Components/_Layout/Header/header.component';
 import { SidebarComponent } from './Components/_Layout/Sidebar/sidebar.component';
 
 // -> MembershipProvider Components
-import { LoginComponent } from './Components/MembershipProvider/Login/login.component';
-import { RegisterComponent } from './Components/MembershipProvider/Register/register.component';
-import { ResetComponent } from './Components/MembershipProvider/Reset/reset.component';
+import { LoginComponent } from './Pages/MembershipProvider/Login/login.component';
+import { RegisterComponent } from './Pages/MembershipProvider/Register/register.component';
+import { ResetComponent } from './Pages/MembershipProvider/Reset/reset.component';
 
 
 // Decorator

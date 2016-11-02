@@ -19,13 +19,19 @@ body {
 a {
     color: #999;
     text-decoration: none;
-    @include yoty-transition(color 0.5s ease);
+    @include yoty-transition(color 0.2s ease);
+    &:hover {
+        color: #da552f;
+        text-decoration: none;
+    }
+    &:active, &:focus {
+        color: #999;
+        text-decoration: none;
+    }
+
 }
 
-a:hover {
-    color: #da552f;
-    text-decoration: none;
-}
+
 
 
 

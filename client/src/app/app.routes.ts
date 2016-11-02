@@ -6,11 +6,11 @@ import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 // Components
-import { HomeComponent } from './Components/Home/home.component';
+import { HomeComponent } from './Pages/Home/home.component';
 
 
 // Component route configuration file
-import { MembershipProviderRoutes } from './Components/MembershipProvider/membership-provider.routes';
+import { MembershipProviderRoutes } from './Pages/MembershipProvider/membership-provider.routes';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent},
